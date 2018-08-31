@@ -283,7 +283,7 @@ knitr::include_graphics('figs/squire.png')
 # Too many dissociations? (Roediger)
 
 ```{r, fig.align='center', out.width="375px"}
-knitr::include_graphics('figs/roediger.png')
+knitr::include_graphics('figs/Roediger.png')
 ```
 
 ---
