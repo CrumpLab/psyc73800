@@ -28,7 +28,7 @@ Course Coordinator: Matthew Crump [mcrump@brooklyn.cuny.edu](mcrump@brooklyn.cun
 This course is co-taught by several faculty from CCP, who will each lead a 2-week module on various topics in Cognitive Psychology.
 
 1. Matthew Crump: Foundations
-2. Andrew Delatamater: Learning
+2. Andrew Delamater: Learning
 3. Virginia Valian: Language
 4. Sandeep Prasada: Concepts
 5. Timothy Ricker: Attention/Memory
