@@ -1,18 +1,19 @@
 <!DOCTYPE html>
 
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html>
 
 <head>
 
 <meta charset="utf-8" />
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
 
 
 <title>Schedule</title>
 
+<script src="site_libs/header-attrs-2.3/header-attrs.js"></script>
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" />
@@ -69,9 +70,7 @@ h6 {
 </style>
 
 
-</head>
 
-<body>
 
 <style type = "text/css">
 .main-container {
@@ -85,7 +84,6 @@ code {
 }
 img {
   max-width:100%;
-  height: auto;
 }
 .tabbed-pane {
   padding-top: 12px;
@@ -95,6 +93,9 @@ img {
 }
 button.code-folding-btn:focus {
   outline: none;
+}
+summary {
+  display: list-item;
 }
 </style>
 
@@ -110,7 +111,6 @@ body {
   padding-top: 56px;
   margin-top: -56px;
 }
-
 .section h2 {
   padding-top: 56px;
   margin-top: -56px;
@@ -130,6 +130,43 @@ body {
 .section h6 {
   padding-top: 56px;
   margin-top: -56px;
+}
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #ffffff;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
 }
 </style>
 
@@ -151,19 +188,74 @@ $(document).ready(function () {
 });
 </script>
 
-
-<div class="container-fluid main-container">
-
 <!-- tabsets -->
-<script>
-$(document).ready(function () {
-  window.buildTabsets("TOC");
-});
-</script>
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
 
 <!-- code folding -->
 
 
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
 
 
 
@@ -206,7 +298,16 @@ $(document).ready(function () {
 </div>
 
 
+<p>All readings and assignemnts will be available through Blackboard.</p>
 <table>
+<colgroup>
+<col width="11%" />
+<col width="3%" />
+<col width="2%" />
+<col width="20%" />
+<col width="35%" />
+<col width="26%" />
+</colgroup>
 <thead>
 <tr class="header">
 <th align="left">Module</th>
@@ -220,120 +321,120 @@ $(document).ready(function () {
 <tbody>
 <tr class="odd">
 <td align="left"><a href="https://crumplab.github.io/psyc73800/Presentations/1_a_intro.html#1">Introduction</a></td>
-<td align="left">Friday August 31</td>
+<td align="left">Friday August 28</td>
 <td align="left">Matt Crump</td>
-<td align="left">TBD</td>
-<td align="left">TBD</td>
-<td align="left">TBD</td>
+<td align="left">NONE</td>
+<td align="left">NONE</td>
+<td align="left">NONE</td>
 </tr>
 <tr class="even">
 <td align="left">Module 1: Foundations</td>
-<td align="left">Friday September 7</td>
+<td align="left">Friday September 4</td>
 <td align="left">Matt Crump</td>
-<td align="left">Hyman, R. (1953). Stimulus information as a determinant of reaction time. Journal of Experimental Psychology, 45(3), 188.</td>
-<td align="left">Logan, G. D. (1988). Toward an instance theory of automatization. Psychological review, 95(4), 492.</td>
+<td align="left">Miller, G. A. (1956). The magic number seven plus or minus two: Some limits on our capacity for processing information. Psychological review, 63, 91-97.</td>
+<td align="left">Schacter, D. L., Eich, J. E., &amp; Tulving, E. (1978). Richard Semon’s theory of memory. Journal of Verbal Learning and Verbal Behavior, 17(6), 721-743.</td>
 <td align="left">Newell, A. (1973). You can’t play 20 questions with nature and win: Projective comments on the papers of this symposium.</td>
 </tr>
 <tr class="odd">
 <td align="left">Module 1: Foundations</td>
-<td align="left">Friday September 14</td>
+<td align="left">Friday September 11</td>
 <td align="left">Matt Crump</td>
-<td align="left">Behmer, Lawrence P., Crump, M. J. C. (2017). Crunching Big Data with Finger Tips: How Typists Tune Their Performance towards the Statistics of Natural Language.</td>
-<td align="left">Crump, M. J. C, et al. (in draft). Instance theory predicts information theory: Episodic uncertainty as a determinant of keystroke dynamics</td>
-<td align="left">NA</td>
+<td align="left">Hintzman, D. L. (1986). " Schema abstraction" in a multiple-trace memory model. Psychological review, 93(4), 411.</td>
+<td align="left">Crump, M. J., Lai, W., &amp; Brosowsky, N. P. (2019). Instance theory predicts information theory: Episodic uncertainty as a determinant of keystroke dynamics. Canadian Journal of Experimental Psychology/Revue canadienne de psychologie expérimentale, 73(4), 203.</td>
+<td align="left">Aujla, H., Crump, M. J., Cook, M. T., &amp; Jamieson, R. K. (2019). The Semantic Librarian: A search engine built from vector-space models of semantics. Behavior Research Methods, 51(6), 2405-2418.</td>
 </tr>
 <tr class="even">
-<td align="left">Module 2: Learning</td>
-<td align="left">Friday September 21</td>
-<td align="left">Andy Delamater</td>
-<td align="left">Pearce, J. M., &amp; Bouton, M. E. (2001). Theories of associative learning in animals. Annual review of psychology, 52(1), 111-139.</td>
-<td align="left">Nasser, H. M., &amp; Delamater, A. R. (2016). The determining conditions for Pavlovian learning: Psychological and neurobiological considerations. The Wiley handbook on the cognitive neuroscience of learning, 5-46.</td>
-<td align="left">NA</td>
-</tr>
-<tr class="odd">
-<td align="left">Module 2: Learning</td>
-<td align="left">Friday September 28</td>
-<td align="left">Andy Delamater</td>
-<td align="left">TBD</td>
-<td align="left">TBD</td>
-<td align="left">TBD</td>
-</tr>
-<tr class="even">
-<td align="left">Module 3: Language</td>
-<td align="left">Friday October 5</td>
-<td align="left">Virginia Valian</td>
-<td align="left">TBD</td>
-<td align="left">TBD</td>
-<td align="left">TBD</td>
-</tr>
-<tr class="odd">
-<td align="left">Module 3: Language</td>
-<td align="left">Friday October 12</td>
-<td align="left">Virginia Valian</td>
-<td align="left">TBD</td>
-<td align="left">TBD</td>
-<td align="left">TBD</td>
-</tr>
-<tr class="even">
-<td align="left">REVIEW</td>
-<td align="left">Friday October 19</td>
-<td align="left">Matt Crump</td>
-<td align="left">TBD</td>
-<td align="left">TBD</td>
-<td align="left">TBD</td>
-</tr>
-<tr class="odd">
-<td align="left">Module 4: Concepts</td>
-<td align="left">Friday October 26</td>
-<td align="left">Sandeep Prasada</td>
-<td align="left">TBD</td>
-<td align="left">TBD</td>
-<td align="left">TBD</td>
-</tr>
-<tr class="even">
-<td align="left">Module 4: Concepts</td>
-<td align="left">Friday November 2</td>
-<td align="left">Sandeep Prasada</td>
-<td align="left">TBD</td>
-<td align="left">TBD</td>
-<td align="left">TBD</td>
-</tr>
-<tr class="odd">
-<td align="left">Module 5: Attention/Memory</td>
-<td align="left">Friday November 9</td>
-<td align="left">Timothy Ricker</td>
-<td align="left">Province, J. M., &amp; Rouder, J. N. (2012). Evidence for discrete-state processing in recognition memory. Proceedings of the National Academy of Sciences, 109, 14357-14362. <a href="doi:10.1073/pnas.1103880109" class="uri">doi:10.1073/pnas.1103880109</a></td>
-<td align="left">Caplan, D., Rochon, E., &amp; Waters, G. S. (1992). Articulatory and phonological determinants of word length effects in span tasks. The Quarterly Journal of Experimental Psychology, 45, 177-192. <a href="doi:10.1080/14640749208401323" class="uri">doi:10.1080/14640749208401323</a></td>
-<td align="left">Broadbent, D. E., &amp; Broadbent, M. H. (1987). From detection to identification: Response to multiple targets in rapid serial visual presentation. Perception &amp; psychophysics, 42, 105-113. <a href="doi:10.3758/BF03210498" class="uri">doi:10.3758/BF03210498</a></td>
-</tr>
-<tr class="even">
-<td align="left">Module 5: Attention/Memory</td>
-<td align="left">Friday November 16</td>
-<td align="left">Timothy Ricker</td>
-<td align="left">Chen, H., &amp; Wyble, B. (2015). Amnesia for object attributes: Failure to report attended information that had just reached conscious awareness. Psychological Science, 26, 203-210. <a href="doi:10.1177/0956797614560648" class="uri">doi:10.1177/0956797614560648</a></td>
-<td align="left">Kane, M. J., Bleckley, M. K., Conway, A. R., &amp; Engle, R. W. (2001). A controlled-attention view of working-memory capacity. Journal of Experimental Psychology: General, 130, 169-183. <a href="http://dx.doi.org/10.1037/0096-3445.130.2.169" class="uri">http://dx.doi.org/10.1037/0096-3445.130.2.169</a>.</td>
-<td align="left">Harrison, T. L., Shipstead, Z., Hicks, K. L., Hambrick, D. Z., Redick, T. S., &amp; Engle, R. W. (2013). Working memory training may increase working memory capacity but not fluid intelligence. Psychological Science, 24, 2409-2419. <a href="doi:10.1177/0956797613492984" class="uri">doi:10.1177/0956797613492984</a></td>
-</tr>
-<tr class="odd">
 <td align="left">NO CLASS</td>
-<td align="left">Friday November 23 - closed</td>
+<td align="left">Friday September 18 - closed</td>
+<td align="left"></td>
+<td align="left">TBD</td>
+<td align="left">TBD</td>
 <td align="left">NA</td>
+</tr>
+<tr class="odd">
+<td align="left">Module 2: Learning</td>
+<td align="left">Friday September 25</td>
+<td align="left">Andy Delamater</td>
 <td align="left">TBD</td>
 <td align="left">TBD</td>
 <td align="left">TBD</td>
 </tr>
 <tr class="even">
-<td align="left">Module 6: Comparative Cognition</td>
-<td align="left">Friday November 30</td>
-<td align="left">Frank Grasso</td>
+<td align="left">Module 2: Learning</td>
+<td align="left">Friday October 2</td>
+<td align="left">Andy Delamater</td>
 <td align="left">TBD</td>
 <td align="left">TBD</td>
 <td align="left">TBD</td>
 </tr>
 <tr class="odd">
-<td align="left">Module 6: Comparative Cognition</td>
-<td align="left">Friday December 7</td>
-<td align="left">Frank Grasso</td>
+<td align="left">Module 3: Language</td>
+<td align="left">Friday October 9</td>
+<td align="left">Virginia Valian</td>
+<td align="left">TBD</td>
+<td align="left">TBD</td>
+<td align="left">TBD</td>
+</tr>
+<tr class="even">
+<td align="left">Module 3: Language</td>
+<td align="left">Friday October 16</td>
+<td align="left">Virginia Valian</td>
+<td align="left">TBD</td>
+<td align="left">TBD</td>
+<td align="left">TBD</td>
+</tr>
+<tr class="odd">
+<td align="left">Midterm</td>
+<td align="left">Friday October 23</td>
+<td align="left">Matt Crump</td>
+<td align="left">TBD</td>
+<td align="left">TBD</td>
+<td align="left">TBD</td>
+</tr>
+<tr class="even">
+<td align="left">Module 4: Embodied Cognition</td>
+<td align="left">Friday October 30</td>
+<td align="left">Natalie Kacinik</td>
+<td align="left">TBD</td>
+<td align="left">TBD</td>
+<td align="left">TBD</td>
+</tr>
+<tr class="odd">
+<td align="left">Module 4: Embodied Cognition</td>
+<td align="left">Friday November 6</td>
+<td align="left">Natalie Kacinik</td>
+<td align="left">TBD</td>
+<td align="left">TBD</td>
+<td align="left">TBD</td>
+</tr>
+<tr class="even">
+<td align="left">Module 5: Concepts</td>
+<td align="left">Friday November 13</td>
+<td align="left">Sandeep Prasada</td>
+<td align="left">TBD</td>
+<td align="left">TBD</td>
+<td align="left">TBD</td>
+</tr>
+<tr class="odd">
+<td align="left">Module 5: Concepts</td>
+<td align="left">Friday November 20</td>
+<td align="left">Sandeep Prasada</td>
+<td align="left">TBD</td>
+<td align="left">TBD</td>
+<td align="left">TBD</td>
+</tr>
+<tr class="even">
+<td align="left">Module 6: Decision-Making</td>
+<td align="left">Wednesday November 25</td>
+<td align="left">Jennifer Mangels</td>
+<td align="left">TBD</td>
+<td align="left">TBD</td>
+<td align="left">TBD</td>
+</tr>
+<tr class="odd">
+<td align="left">Module 6: Decision-Making</td>
+<td align="left">Friday December 4</td>
+<td align="left">Jennifer Mangels</td>
 <td align="left">TBD</td>
 <td align="left">TBD</td>
 <td align="left">TBD</td>
@@ -358,6 +459,23 @@ $(document).ready(function () {
 
 
 </script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+
 
 <!-- dynamically load mathjax for compatibility with self-contained -->
 <script>

@@ -25,7 +25,7 @@ This is the course website for Psyc 73800: Cognitive Psychology (Fall 2020), off
 
 Course Coordinator: Matthew Crump [mcrump@brooklyn.cuny.edu](mcrump@brooklyn.cuny.edu)
 
-This course is co-taught by several faculty from CCP, who will each lead a 2-week module on various topics in Cognitive Psychology.
+This course is co-taught by several faculty from CCP, who will each lead a 2-week module on various topics in Cognitive Psychology. The readings and assignments are posted on the blackboard for this course. Emails for each module leader are also available on Blackboard.
 
 1. [Matthew Crump](https://crumplab.github.io): Foundations
 2. [Andrew Delamater](http://academic.brooklyn.cuny.edu/psych/delam/): Learning

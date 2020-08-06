@@ -5,12 +5,12 @@ output: html_document
 
 PSYC 73800 – Cognitive Psychology
 
-Fall 2020, Fridays 10:30am - 12:30pm (room or online TBD)
+Fall 2020, Fridays 10:30am - 12:30pm (ONLINE, zoom links will be provided by module leaders in advance of each meeting)
 
-The Graduate Center, 365 5th Ave, Room TBD
+The Graduate Center
+
 
 Course Organizer:  Matthew Crump, [mcrump@brooklyn.cuny.edu](mcrump@brooklyn.cuny.edu)
-
 
 
 ## General Course Description and Objectives
@@ -33,40 +33,61 @@ The course is team-taught by 6 faculty:  6 module leaders, including the organiz
 
 Topic areas cover a broad range of issues in cognition and highlight current research interests of the faculty teaching the modules.
 
-Topic areas are covered in two week modules. Generally, within a module, week 1 will cover foundational papers and week 2 will cover current issues in a domain.  Week 1 will typically have a combined lecture-seminar format, with students actively participating in a discussion of the readings.  Although readings are also important in week 2, week 2 may take a variety of forms, depending on the module leader:  seminar format; short student presentations focused on a topic; discussion between faculty members working in that field, and so on.  The design of week 2 is up to the faculty leader.
+Topic areas are covered in two week modules. Generally, within a module, week one will cover foundational papers and week two will cover current issues in a domain.  Week one will typically have a combined lecture-seminar format, with students actively participating in a discussion of the readings.  Although readings are also important in week two, week two may take a variety of forms, depending on the module leader:  seminar format; short student presentations focused on a topic; discussion between faculty members working in that field, and so on.  The design of each module is structured by the module, and given we are online this semester, we are open to trying different formats.
 
-There is no textbook.  All readings are available in electronic format, and will be posted on the schedule page of this website and/or on blackboard
+There is no textbook.  All readings are available in electronic format, and will be posted on the schedule on blackboard.
 
 **Faculty may substitute, add, or subtract readings; make sure you have the most recent information for each module.**
 
 ## Assignments and Grading
 
-The course will have a total of 100 points.  Except for medical emergencies, late work will not be accepted.  Students will be expected to attend each class, read the assigned articles, and participate in discussion.  To ensure that students read the articles with a purpose, and to ensure that the entire course grade does not depend on the final assignment, students will produce a short assignment for each module, due at the beginning of the second session of each module.  Each module leader will assign and grade their own assignment for each module.
+The course will have a total of 100 points, split into 60 points for module assignments, and 40 points for the semester long project which culminates in a final paper.
 
-The default short assignment is about 2 pages in length. Depending on the instructor it could be a (critical) commentary on one of the readings; a description of an experiment to test a hypothesis presented in one of the readings; a comparison of two readings; a thought piece on why a particular problem is intractable or cannot be answered as posed; a summary of a controversy in the literature.  Each of those assignments will be worth 3 points, for a total of 18 points.  Students will be graded primarily on the thought and effort they put into the assignments.  Some assignments may have peer assessment.
+Details about the each assignment will be posted on Blackboard for each module, and for the semester long project.
 
-The mid-term, a journal article review (22 points), is designed to help you think like a reviewer by having you critically analyze a recent (published no earlier than 2007) journal article related to one of the topics in the first half of the course.  The review will be approximately 5-10 double-spaced pages with 12-point type (Times New Roman preferred) and 1-inch margins.  It may seem that published papers have already been so well-reviewed that their methods and conclusions are beyond reproach.  By reading an article in depth, you will discover that that is not necessarily the case.  Try to choose an article that stimulates your thinking and could be the basis for designing a new study or developing a new analysis.  Clear your choice of article first.  Students are encouraged to collaborate on the review, but should turn in individual papers.
+### Module assignments
 
-The final is a written paper (60 points).  The various possibilities include:  an integrative paper that combines issues discussed across two modules, a proposal-type paper that links the student's current research interests with foundational issues discussed in one of the modules, an expansion of any of the module commentaries, or any other agreed-upon format.
+Students will be expected to attend each class, read the assigned articles, and participate in discussion.  To ensure that students read the articles with a purpose, and to ensure that the entire course grade does not depend on the final assignment, students will produce a short assignment for each module. Each module leader will assign and grade their own assignment for each module.
 
-| Assignment |  Points| Total|
-|:----------|--------:|-------:|
-| weekly assignments| 3 each | 18|
-| journal review  |  22 | 22|
-|final paper| 60 | 60|
-|||100|
+The default short assignment is about 2 pages in length. Depending on the instructor it could be a (critical) commentary on one of the readings; a description of an experiment to test a hypothesis presented in one of the readings; a comparison of two readings; a thought piece on why a particular problem is intractable or cannot be answered as posed; a summary of a controversy in the literature.  Each of those assignments will be worth 10 points. Students will be graded primarily on the thought and effort they put into the assignments.  Some assignments may have peer assessment. It is possible that module leaders will break up the assignment into two pieces, and have a 5 point assignment for each week. However, usually there is one assignment that discussed in the first week, and due at the end of the second week. 
+
+### Semester Long Project
+
+The semester long project involves a blog (5), a final paper bibliogaphy (5) and proposal (5), and a final paper (25) due at the end of the semester. The semester long project is structured to support critical writing as an active thought process that occurs throughout the semester. Instructions for these assignments will be posted on blackboard.
+
+To provide a brief overview, students will be shown how to produce a blog using R Markdown and RStudio and host it on a Github website. Various assignments across the course will call for students to contribute content to the blog, for example some module assignments could involve posting the assignment to the blog. 
+
+The final exam is a written paper (25 points) that can have a somewhat open format, as long as it is appoved by the course organizer Matt Crump. Some possibilities include:  an integrative paper that combines issues discussed across two modules, a proposal-type paper that links the student's current research interests with foundational issues discussed in one of the modules, an expansion of any of the module commentaries, or any other agreed-upon format. Final papers are expected to be in APA style, a minimum of 10-15 pages (double-spaced), and a minimum of 20 references. 
+
+To support the process of honing in on a final paper topic or idea, the midterm will involve submitting a bibliography or reference list that identifies existing literature that would be included in the final paper, as well as a one to two page (double-spaced) proposal outlining the direction for the final paper.
+
+### Grading breakdown
+
+| Assignment |  Points|
+|:----------|--------:|
+| Module 1 | 10  |
+| Module 2 | 10  |
+| Module 3 | 10  |
+| Module 4 | 10  |
+| Module 5 | 10  |
+| Module 6 | 10  |
+| Semester Project: Blog | 5 |
+| Semester Project: Bibliography | 5 |
+| Semester Project: Proposal | 5 |
+| Semester Project: Final Paper | 25 |
+| Total | 100 |
 
 ## Policy on Academic Integrity
 
-CUNY regards acts of academic dishonesty (e.g. plagiarism, cheating on examinations, obtaining unfair advantage, and falsification of records and official documents) as serious offenses against the values of intellectual honesty. It is committed to enforcing the CUNY Policy on Academic Integrity and will pursue cases of academic dishonesty according to its Academic Integrity Procedures.  For the full CUNY policy, please consult:  web.cuny.edu/academics/info-central/policies/academic-integrity.pdf.  
-For full guidelines on avoiding and detecting academic honesty, please read the online publication provided by the CUNY Provost’s office (especially SECTION I: FOR THE STUDENT, pp 3-17).  Go to:  https://www.gc.cuny.edu/About-the-GC/Governance,-Policies,-Procedures/Detail?id=4827 and click on Plagiarism Avoiding and Detecting.  
+CUNY regards acts of academic dishonesty (e.g. plagiarism, cheating on examinations, obtaining unfair advantage, and falsification of records and official documents) as serious offenses against the values of intellectual honesty. It is committed to enforcing the CUNY Policy on Academic Integrity and will pursue cases of academic dishonesty according to its Academic Integrity Procedures.  For the full CUNY policy, please consult:  <http://web.cuny.edu/academics/info-central/policies/academic-integrity.pdf>.  
+For full guidelines on avoiding and detecting academic honesty, please read the online publication provided by the CUNY Provost’s office (especially SECTION I: FOR THE STUDENT, pp 3-17).  Go to:  <https://www.gc.cuny.edu/About-the-GC/Governance,-Policies,-Procedures/Detail?id=4827> and click on Plagiarism Avoiding and Detecting.  
 
 Be sure you understand what academic dishonesty is so that you do not accidentally commit it. Remember that it is better to over-cite than under-cite.  Whether you intend to be dishonest or not, any dishonesty will be considered a serious breach of academic values.  You will be teaching undergraduate students about academic honesty, so it is especially important that you understand why honesty is important and how to avoid dishonesty.
 
 
 ## Students with Disabilities
 
-Quoted from https://www.gc.cuny.edu/Prospective-Current-Students/Student-Life/Resources 
+Quoted from <https://www.gc.cuny.edu/Prospective-Current-Students/Student-Life/Resources> 
 "A disability is any physical or mental impairment that substantially limits one or more major life activities. A person is considered to be a person with a disability if he/she has the disability, has a record of the disability, or is regarded as having the disability. Under the Americans with Disabilities Act of 1990 and Section 504 of the Rehabilitation Act of 1973, qualified persons with disabilities are entitled to reasonable accommodations to achieve non-discriminatory access to programs, services, and activities of the GC. Some examples of covered disabilities are visual and hearing impairments, mobility impairments, impairment of hand function, and such “hidden” disabilities as AIDS/HIV, learning disabilities, ADD and ADHD, heart conditions, chronic fatigue syndrome, and being in recovery from substance abuse. The Graduate Center does not discriminate on the basis of disability in the admission and retention of students. To ensure equal access for persons with disabilities to all academic and other programs, services, and activities of the GC, as required by law, appropriate accommodations will be made. These may include auxiliary aids and services for students with visual impairments (readers/library assistants and such technology as adaptive computer software and hardware, etc.); qualified sign-language interpreters; scribes; extended or divided time on examinations for students with learning disabilities or reduced physical stamina; adjustments in course load when appropriate; voice-recognition software; use of a computer for exams; and taping classes.
 
 "Adaptive equipment and computer software are available at the Graduate Center. Computer users have access to screen-character enlargement, text-to-speech, and optical-character-recognition scan-and-read software, a closed-circuit television and voice-recognition software. For students with hearing impairments, the Graduate Center has available a personal FM listening system (for use on an individual basis for classes and meetings). The auditoriums are equipped with infrared equipment to assist those with hearing impairments. Contact Ms. Lerner or Miss Perram in Student Affairs to request accommodation and for additional information about facilities and services available to students with disabilities.
@@ -76,9 +97,9 @@ Students with disabilities should register with Security and Public Safety (Room
 
 "Users of TDD (Telecommunications Devices for the Deaf) within New York state should call the Telecommunications Service at 711 or at 1-800-662-1220. Users of TDD outside New York state should call their local Telecommunications Service.
 
-"The Vice President for Student Affairs is the 504/ADA Coordinator (Room 7301; 817-7400). For more information (with confidentiality) contact Sharon Lerner or Elise Perram (212-817-7400 or disabilityservices@gc.cuny.edu) and consult the Graduate Center Student Handbook."
+"The Vice President for Student Affairs is the 504/ADA Coordinator (Room 7301; 817-7400). For more information (with confidentiality) contact Sharon Lerner or Elise Perram (212-817-7400 or disabilityservices@gc.cuny.edu) and consult the Graduate Center Student Handbook."
 
-CUNY's policies and procedures on equal opportunity, non-discrimination, and against sexual harassment:  http://www.cuny.edu/about/administration/offices/ohrm/policies-procedures/finalnondeiscrimpolicy121213.pdf
+CUNY's policies and procedures on equal opportunity, non-discrimination, and against sexual harassment:  <http://www.cuny.edu/about/administration/offices/ohrm/policies-procedures/finalnondeiscrimpolicy121213.pdf>
 
 
 

@@ -1,18 +1,19 @@
 <!DOCTYPE html>
 
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html>
 
 <head>
 
 <meta charset="utf-8" />
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
 
 
 <title>Psyc 73800</title>
 
+<script src="site_libs/header-attrs-2.3/header-attrs.js"></script>
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" />
@@ -69,9 +70,7 @@ h6 {
 </style>
 
 
-</head>
 
-<body>
 
 <style type = "text/css">
 .main-container {
@@ -85,7 +84,6 @@ code {
 }
 img {
   max-width:100%;
-  height: auto;
 }
 .tabbed-pane {
   padding-top: 12px;
@@ -95,6 +93,9 @@ img {
 }
 button.code-folding-btn:focus {
   outline: none;
+}
+summary {
+  display: list-item;
 }
 </style>
 
@@ -110,7 +111,6 @@ body {
   padding-top: 56px;
   margin-top: -56px;
 }
-
 .section h2 {
   padding-top: 56px;
   margin-top: -56px;
@@ -130,6 +130,43 @@ body {
 .section h6 {
   padding-top: 56px;
   margin-top: -56px;
+}
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #ffffff;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
 }
 </style>
 
@@ -151,19 +188,74 @@ $(document).ready(function () {
 });
 </script>
 
-
-<div class="container-fluid main-container">
-
 <!-- tabsets -->
-<script>
-$(document).ready(function () {
-  window.buildTabsets("TOC");
-});
-</script>
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
 
 <!-- code folding -->
 
 
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
 
 
 
@@ -217,26 +309,25 @@ $(document).ready(function () {
 
 </style>
 <div class="row" style="padding-top: 30px;">
-<div class="col-sm-6">
-<h1 id="psyc-73800"><strong>Psyc 73800</strong></h1>
-<h3 id="cognitive-psychology" style="padding-top: 0px;"><em>Cognitive Psychology</em></h3>
-<p>This is the course website for Psyc 73800: Cognitive Psychology (Fall 2018), offered through the Cognition and Comparative Psychology (CCP) training area, Department of Psychology, Graduate Center of CUNY.</p>
-<p>Course Coordinator: Matthew Crump <a href="mcrump@brooklyn.cuny.edu" class="uri">mcrump@brooklyn.cuny.edu</a></p>
-<p>This course is co-taught by several faculty from CCP, who will each lead a 2-week module on various topics in Cognitive Psychology.</p>
+<div id="psyc-73800" class="section level1 col-sm-6">
+<h1><strong>Psyc 73800</strong></h1>
+<div id="cognitive-psychology" class="section level3" style="padding-top: 0px;">
+<h3 style="padding-top: 0px;"><em>Cognitive Psychology</em></h3>
+<p>This is the course website for Psyc 73800: Cognitive Psychology (Fall 2020), offered through the Cognition and Comparative Psychology (CCP) training area, Department of Psychology, Graduate Center of CUNY.</p>
+<p>Course Coordinator: Matthew Crump <a href="mcrump@brooklyn.cuny.edu">mcrump@brooklyn.cuny.edu</a></p>
+<p>This course is co-taught by several faculty from CCP, who will each lead a 2-week module on various topics in Cognitive Psychology. The readings and assignments are posted on the blackboard for this course. Emails for each module leader are also available on Blackboard.</p>
 <ol style="list-style-type: decimal">
-<li>Matthew Crump: Foundations</li>
-<li>Andrew Delamater: Learning</li>
-<li>Virginia Valian: Language</li>
-<li>Sandeep Prasada: Concepts</li>
-<li>Timothy Ricker: Attention/Memory</li>
-<li>Frank Grasso: Comparative Cognition</li>
+<li><a href="https://crumplab.github.io">Matthew Crump</a>: Foundations</li>
+<li><a href="http://academic.brooklyn.cuny.edu/psych/delam/">Andrew Delamater</a>: Learning</li>
+<li><a href="http://www.hunter.cuny.edu/psychology/people/faculty/cognitive-psychology/valian">Virginia Valian</a>: Language</li>
+<li><a href="http://www.hunter.cuny.edu/psychology/people/faculty/cognitive-psychology/prasada">Sandeep Prasada</a>: Concepts</li>
+<li><a href="http://www.brooklyn.cuny.edu/web/academics/faculty/faculty_profile.jsp?faculty=803">Natalie Kacinick</a>: Embodied Cognition</li>
+<li><a href="https://www.baruch.cuny.edu/wsas/academics/psychology/jmangels.htm">Jennifer Mangels</a>: Decision-Making</li>
 </ol>
 </div>
-<div class="col-sm-6">
-<div class="figure">
-<img src="images/cognitive_science.png" />
-
 </div>
+<div class="col-sm-6">
+<p><img src="images/cognitive_science.png" /></p>
 </div>
 </div>
 
@@ -257,6 +348,23 @@ $(document).ready(function () {
 
 
 </script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+
 
 <!-- dynamically load mathjax for compatibility with self-contained -->
 <script>
