@@ -5,9 +5,9 @@ output: html_document
 
 PSYC 73800 – Cognitive Psychology
 
-Fall 2018, Fridays 11:45pm – 1:45pm;
+Fall 2020, Fridays 10:30am - 12:30pm (room or online TBD)
 
-The Graduate Center, 365 5th Ave, Room 3212
+The Graduate Center, 365 5th Ave, Room TBD
 
 Course Organizer:  Matthew Crump, [mcrump@brooklyn.cuny.edu](mcrump@brooklyn.cuny.edu)
 
@@ -35,13 +35,13 @@ Topic areas cover a broad range of issues in cognition and highlight current res
 
 Topic areas are covered in two week modules. Generally, within a module, week 1 will cover foundational papers and week 2 will cover current issues in a domain.  Week 1 will typically have a combined lecture-seminar format, with students actively participating in a discussion of the readings.  Although readings are also important in week 2, week 2 may take a variety of forms, depending on the module leader:  seminar format; short student presentations focused on a topic; discussion between faculty members working in that field, and so on.  The design of week 2 is up to the faculty leader.
 
-There is no textbook.  All readings are available in electronic format, and will be posted on the schedule page of this website
+There is no textbook.  All readings are available in electronic format, and will be posted on the schedule page of this website and/or on blackboard
 
 **Faculty may substitute, add, or subtract readings; make sure you have the most recent information for each module.**
 
 ## Assignments and Grading
 
-The course will have a total of 100 points.  Except for medical emergencies, late work will not be accepted.  Students will be expected to attend each class, read the assigned articles, and participate in discussion.  To ensure that students read the articles with a purpose, and to ensure that the entire course grade does not depend on the final assignment, students will produce a short assignment for each module, due at the beginning of the second session of each module.  Each instructor will assign their own.
+The course will have a total of 100 points.  Except for medical emergencies, late work will not be accepted.  Students will be expected to attend each class, read the assigned articles, and participate in discussion.  To ensure that students read the articles with a purpose, and to ensure that the entire course grade does not depend on the final assignment, students will produce a short assignment for each module, due at the beginning of the second session of each module.  Each module leader will assign and grade their own assignment for each module.
 
 The default short assignment is about 2 pages in length. Depending on the instructor it could be a (critical) commentary on one of the readings; a description of an experiment to test a hypothesis presented in one of the readings; a comparison of two readings; a thought piece on why a particular problem is intractable or cannot be answered as posed; a summary of a controversy in the literature.  Each of those assignments will be worth 3 points, for a total of 18 points.  Students will be graded primarily on the thought and effort they put into the assignments.  Some assignments may have peer assessment.
 
