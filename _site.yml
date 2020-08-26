@@ -8,6 +8,10 @@ navbar:
     href: Syllabus.html
   - text: Schedule
     href: Schedule.html
+  - text: Semester Project
+    menu:
+    - text: Blog
+      href: Blog.html 
 output_dir: docs
 output:
   html_document:

@@ -1,0 +1,64 @@
+---
+title: "Blog"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+Your first assignment will be to create a public blog, make a first post, and submit the link to your blog post on blackboard. The purpose of this first assignment is mainly to help you get your blog set-up. I (Course organizer Matt Crump) will be asking you to make posts to your blog throughout the semester, especially relating to the semester long project. I will also ask you to make blog posts for your weekly assignments in my first module on cognitive foundations. The other instructors may or may not ask you to make blog posts for their weekly assignments. 
+
+Briefly, I think blogging is a valuable and productive method for active thinking. In this course you will be asked to actively consider and respond to concepts in the domain of cognitive psychology. For this course, many of these actions will take the form of blog posts. I will also structure assignments so that the content you post on your blog will help you complete your semester long project. For example, I have used blogging in the past to "get my thoughts out" about a research topic, and then I have returned to the blog and used some of that content when writing a paper. So, in this scenario, the blog is a kind of draft table for your ongoing work. 
+
+## Setting up your blog
+
+There are many free websites you could use to set up a blog. I am not partial to any of them, and if you want to use one of these services that is fine. For example, WordPress, Wix, Weebly, Medium, Blogger,  Ghost, Tumblr are all sites that you could use to create a blog. 
+
+**My recommendation** is that you learn how to use R to host a blog for free on Github.com. There are several reasons for this. First, R is a great skill to learn for data-analysis, modeling and statistics, so this could help you become familiar with R. Second, R can be used to create all sorts of content including webpages and blogs (this website was made with R). Third, once you get the hang of it, the process of writing blog posts in R is pretty fast and painless. Fourth, there are many options for customization if you want to learn how to use this process. Finally, you will be writing your blogposts in a document called R Markdown, which is very flexible, allows you to easily insert references, and can even be used to write APA style papers. **TLDR:** I think this R workflow will serve you well in the future for many applications, so that is why I am encouraging you to learn a little bit of it for this course.
+
+## Blogging with R and Github
+
+Here are the basic steps to install the software that you need. I will also recommend that you obtain the free reference manager zotero.
+
+1. Download and install R on your computer. This is the R website [https://www.r-project.org](https://www.r-project.org)
+2. Download and install R-studio. You must download and install R first before installing R-studio. The R-studio website is [https://www.rstudio.com](https://www.rstudio.com)
+3. Create a free github account. The github website is [https://github.com](https://github.com)
+4. Download and install github desktop [https://desktop.github.com](https://desktop.github.com)
+5. Download and install zotero [https://www.zotero.org](https://www.zotero.org)
+
+### Now to make a blog...
+
+1. Open RStudio
+2. Install the distill package
+3. Create a New R project, New Directory, choose Distill Blog (check initialize for github pages)
+4. Click "build website" in the build tab
+
+### Upload your R project to Github.com
+
+1. Add your R project folder to Github Desktop
+2. add a commit note, press commit
+3. Publish to Github.com (unclick private)
+4. view your repository on Github.com
+5. go to your repo settings and enable github pages (master, docs folder)
+6. Go to the URL generated from github pages...you should now be viewing your blog
+
+### Making new posts
+
+1. go into `_posts` folder. 
+2. Copy an existing folder containing a post
+3. Rename the folder, and .rmd file
+4. Edit and modify the new .rmd file
+5. Knit the .rmd file
+6. Commit the changes on github desktop
+7. Push them to Github.com
+
+### Example of writing content in R Markdown
+
+You will be writing new posts in an .Rmd document, which is stands for R Markdown. R markdown documents are plain text with "extra" bells and whistles. For one, they let you combine regular text with R code. But, even if you are not intended to write any code, they are very useful for academic writing, and convenient for blogging. One main convenience is that you more or less get to focus on writing words, and don't have to spend much time on outputting the final product into a website format. In this next video, my plan is to go over some tips and tricks for basic blogging using R Markdown:
+
+
+
+
+
+
