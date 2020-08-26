@@ -19,6 +19,8 @@ There are many free websites you could use to set up a blog. I am not partial to
 
 ## Blogging with R and Github
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/uLUqZp1kAWc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 Here are the basic steps to install the software that you need. I will also recommend that you obtain the free reference manager zotero.
 
 1. Download and install R on your computer. This is the R website [https://www.r-project.org](https://www.r-project.org)
