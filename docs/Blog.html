@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+
+
+<title>Blog</title>
+
+<script src="site_libs/header-attrs-2.3/header-attrs.js"></script>
+<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+
+<style type="text/css">code{white-space: pre;}</style>
+<style type="text/css">
+  pre:not([class]) {
+    background-color: white;
+  }
+</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+<style type="text/css">
+h1 {
+  font-size: 34px;
+}
+h1.title {
+  font-size: 38px;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 24px;
+}
+h4 {
+  font-size: 18px;
+}
+h5 {
+  font-size: 16px;
+}
+h6 {
+  font-size: 12px;
+}
+.table th:not([align]) {
+  text-align: left;
+}
+</style>
+
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+code {
+  color: inherit;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+</style>
+
+
+<style type="text/css">
+/* padding for bootstrap navbar */
+body {
+  padding-top: 51px;
+  padding-bottom: 40px;
+}
+/* offset scroll position for anchor links (for fixed navbar)  */
+.section h1 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h2 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h3 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h4 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h5 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h6 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #ffffff;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script>
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.parent().addClass('active');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">Psyc 73800</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="index.html">Home</a>
+</li>
+<li>
+  <a href="Syllabus.html">Syllabus</a>
+</li>
+<li>
+  <a href="Schedule.html">Schedule</a>
+</li>
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+    Semester Project
+     
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+    <li>
+      <a href="Blog.html">Blog</a>
+    </li>
+  </ul>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div class="fluid-row" id="header">
+
+
+
+<h1 class="title toc-ignore">Blog</h1>
+
+</div>
+
+
+<p>Your first assignment will be to create a public blog, make a first post, and submit the link to your blog post on blackboard. The purpose of this first assignment is mainly to help you get your blog set-up. I (Course organizer Matt Crump) will be asking you to make posts to your blog throughout the semester, especially relating to the semester long project. I will also ask you to make blog posts for your weekly assignments in my first module on cognitive foundations. The other instructors may or may not ask you to make blog posts for their weekly assignments.</p>
+<p>Briefly, I think blogging is a valuable and productive method for active thinking. In this course you will be asked to actively consider and respond to concepts in the domain of cognitive psychology. For this course, many of these actions will take the form of blog posts. I will also structure assignments so that the content you post on your blog will help you complete your semester long project. For example, I have used blogging in the past to “get my thoughts out” about a research topic, and then I have returned to the blog and used some of that content when writing a paper. So, in this scenario, the blog is a kind of draft table for your ongoing work.</p>
+<div id="setting-up-your-blog" class="section level2">
+<h2>Setting up your blog</h2>
+<p>There are many free websites you could use to set up a blog. I am not partial to any of them, and if you want to use one of these services that is fine. For example, WordPress, Wix, Weebly, Medium, Blogger, Ghost, Tumblr are all sites that you could use to create a blog.</p>
+<p><strong>My recommendation</strong> is that you learn how to use R to host a blog for free on Github.com. There are several reasons for this. First, R is a great skill to learn for data-analysis, modeling and statistics, so this could help you become familiar with R. Second, R can be used to create all sorts of content including webpages and blogs (this website was made with R). Third, once you get the hang of it, the process of writing blog posts in R is pretty fast and painless. Fourth, there are many options for customization if you want to learn how to use this process. Finally, you will be writing your blogposts in a document called R Markdown, which is very flexible, allows you to easily insert references, and can even be used to write APA style papers. <strong>TLDR:</strong> I think this R workflow will serve you well in the future for many applications, so that is why I am encouraging you to learn a little bit of it for this course.</p>
+</div>
+<div id="blogging-with-r-and-github" class="section level2">
+<h2>Blogging with R and Github</h2>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/uLUqZp1kAWc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+</iframe>
+<p>Here are the basic steps to install the software that you need. I will also recommend that you obtain the free reference manager zotero.</p>
+<ol style="list-style-type: decimal">
+<li>Download and install R on your computer. This is the R website <a href="https://www.r-project.org">https://www.r-project.org</a></li>
+<li>Download and install R-studio. You must download and install R first before installing R-studio. The R-studio website is <a href="https://www.rstudio.com">https://www.rstudio.com</a></li>
+<li>Create a free github account. The github website is <a href="https://github.com">https://github.com</a></li>
+<li>Download and install github desktop <a href="https://desktop.github.com">https://desktop.github.com</a></li>
+<li>Download and install zotero <a href="https://www.zotero.org">https://www.zotero.org</a></li>
+</ol>
+<div id="now-to-make-a-blog" class="section level3">
+<h3>Now to make a blog…</h3>
+<ol style="list-style-type: decimal">
+<li>Open RStudio</li>
+<li>Install the distill package</li>
+<li>Create a New R project, New Directory, choose Distill Blog (check initialize for github pages)</li>
+<li>Click “build website” in the build tab</li>
+</ol>
+</div>
+<div id="upload-your-r-project-to-github.com" class="section level3">
+<h3>Upload your R project to Github.com</h3>
+<ol style="list-style-type: decimal">
+<li>Add your R project folder to Github Desktop</li>
+<li>add a commit note, press commit</li>
+<li>Publish to Github.com (unclick private)</li>
+<li>view your repository on Github.com</li>
+<li>go to your repo settings and enable github pages (master, docs folder)</li>
+<li>Go to the URL generated from github pages…you should now be viewing your blog</li>
+</ol>
+</div>
+<div id="making-new-posts" class="section level3">
+<h3>Making new posts</h3>
+<ol style="list-style-type: decimal">
+<li>go into <code>_posts</code> folder.</li>
+<li>Copy an existing folder containing a post</li>
+<li>Rename the folder, and .rmd file</li>
+<li>Edit and modify the new .rmd file</li>
+<li>Knit the .rmd file</li>
+<li>Commit the changes on github desktop</li>
+<li>Push them to Github.com</li>
+</ol>
+</div>
+<div id="example-of-writing-content-in-r-markdown" class="section level3">
+<h3>Example of writing content in R Markdown</h3>
+<p>You will be writing new posts in an .Rmd document, which is stands for R Markdown. R markdown documents are plain text with “extra” bells and whistles. For one, they let you combine regular text with R code. But, even if you are not intended to write any code, they are very useful for academic writing, and convenient for blogging. One main convenience is that you more or less get to focus on writing words, and don’t have to spend much time on outputting the final product into a website format. In this next video, my plan is to go over some tips and tricks for basic blogging using R Markdown:</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/q_Hai4Y9J_4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+</iframe>
+</div>
+</div>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>
