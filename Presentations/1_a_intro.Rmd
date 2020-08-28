@@ -52,15 +52,11 @@ class: pink, center, middle, clear
 
 ---
 
-# Review assignment
+# Semester project
 
-There is a mid-term assignment to complete a "peer-review" style review of a journal article.
+The semester project culminates in a final paper on a topic in Cognitive Psychology (more info about this throughout the course)
 
----
-
-# Final Paper
-
-Bulk of the grade is a final paper on a topic in Cognitive Psychology (more info about this in syllabus, and throughout the course)
+At the beginning you will set up a blog, and use the blog at points throughout the semester to write content that could support your final paper.
 
 ---
 
