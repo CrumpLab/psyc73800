@@ -12,6 +12,8 @@ navbar:
     menu:
     - text: Blog
       href: Blog.html 
+    - text: Midterm Proposal & Bibliography
+      href: Midterm.html 
 output_dir: docs
 output:
   html_document:

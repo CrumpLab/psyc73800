@@ -1,0 +1,38 @@
+---
+title: "Midterm Proposal and Bibliography"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+The midterm involves submitting a proposal and bibliography as a part of the semester long project to write a final paper. As a reminder, I am copying the instructions for the final paper below (due at the end of the semester)below, this is the same information as printed on the course syllabus:
+
+The final exam is a written paper (25 points) that can have a somewhat open format, as long as it is approved by the course organizer Matt Crump. Some possibilities include:  an integrative paper that combines issues discussed across two modules, a proposal-type paper that links the student's current research interests with foundational issues discussed in one of the modules, an expansion of any of the module commentaries, or any other agreed-upon format. Final papers are expected to be in APA style, a minimum of 10-15 pages (double-spaced), and a minimum of 20 references. 
+
+## Midterm
+
+To help you engage the final paper throughout the course, you will be completing a midterm assignment, involving a proposal and bibliography.
+
+### Proposal (5 points)
+
+Draft 1-2 page, double-spaced, proposal that describes your proposed final paper for this course. You must have your proposal approved by the course organizer (Matt Crump). The exact nature of the final paper is potentially open, and you can make an argument for what you want to do in your proposal. The major requirement is that you propose to write something relevant to issues in Cognitive Psychology.
+
+Some additional formats the final paper could take include: an Experiment proposal/grant paper where you identify an issue in cognition and describe potential experiments that could be run that could shed light on or test theoretical issues, A debate paper where you summarize and explain an existing debate in cognition and weigh in with your own perspective, A review style paper summarizing a domain or body of knowledge in cognition, a textbook style chapter where you review and summarize and make accessible some traditional area in cognition that would be appropriate for an introductory course in cognition, or perhaps a more nuanced topic that would be more appropriate for a higher level course.
+
+Feel free to submit your proposal as a blog post, or as a word document. You should identify the format of your final paper, and give a clear sense of what you plan on writing about.
+
+### Bibliography (5 points)
+
+The final paper has a requirement of a minimum of 20 references, which should usually be references to papers in Cognitive Psychology. As a part of submitting your proposal, please also submit a short bibliography of least 10 references that could or would appear in your final paper. 
+
+Feel free to submit this as a separate document, or as part of a blog post.
+
+
+
+
+
+
+
+
