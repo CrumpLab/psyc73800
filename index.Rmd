@@ -28,8 +28,8 @@ Course Coordinator: Matthew Crump [mcrump@brooklyn.cuny.edu](mcrump@brooklyn.cun
 This course is co-taught by several faculty from CCP, who will each lead a 2-week module on various topics in Cognitive Psychology. The readings and assignments are posted on the blackboard for this course. Emails for each module leader are also available on Blackboard.
 
 1. [Matthew Crump](https://crumplab.github.io): Foundations
-2. [Andrew Delamater](http://academic.brooklyn.cuny.edu/psych/delam/): Learning
-3. [Virginia Valian](http://www.hunter.cuny.edu/psychology/people/faculty/cognitive-psychology/valian): Language
+2. [Virginia Valian](http://www.hunter.cuny.edu/psychology/people/faculty/cognitive-psychology/valian): Language
+3. [Andrew Delamater](http://academic.brooklyn.cuny.edu/psych/delam/): Learning
 4. [Sandeep Prasada](http://www.hunter.cuny.edu/psychology/people/faculty/cognitive-psychology/prasada): Concepts
 5. [Natalie Kacinick](http://www.brooklyn.cuny.edu/web/academics/faculty/faculty_profile.jsp?faculty=803): Embodied Cognition
 6. [Jennifer Mangels](https://www.baruch.cuny.edu/wsas/academics/psychology/jmangels.htm): Decision-Making

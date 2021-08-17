@@ -5,7 +5,7 @@ output: html_document
 
 PSYC 73800 – Cognitive Psychology
 
-Fall 2020, Fridays 10:30am - 12:30pm (ONLINE, zoom links will be provided by module leaders in advance of each meeting)
+Fall 2021, Fridays 10:30am - 12:30pm (ONLINE, zoom links will be provided by module leaders in advance of each meeting)
 
 The Graduate Center
 

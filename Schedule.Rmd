@@ -7,12 +7,20 @@ output: html_document
 
 All readings and assignments will be available through Blackboard.
 
-```{r, cache=FALSE, warning=FALSE, message=FALSE, echo=FALSE, eval=TRUE, results="asis"}
+```{r, message=FALSE, warning=FALSE, echo=FALSE, eval=TRUE}
+#library(data.table)
+library(readxl)
+Lectures <- read_excel("schedule.xlsx", sheet = 1, col_names = TRUE, col_types = NULL, na = "", skip = 0)
+Lectures[is.na(Lectures)] <- " "
+#Lectures <- fread("Lectures.csv")
+knitr::kable(Lectures)
+
+```
+
+```{r, cache=FALSE, warning=FALSE, message=FALSE, echo=FALSE, eval=FALSE, results="asis"}
 
 Lectures <- read.table("Lectures.csv", header = TRUE)
 knitr::kable(Lectures)
 
 ```
 
-
-## References
